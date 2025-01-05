@@ -1,8 +1,8 @@
 import pgzrun
 import random
 
-WIDTH = 1000
-HEIGHT = 600
+WIDTH = 800
+HEIGHT = 584
 TITLE = 'The Satillite Game'
 
 satillites = []
@@ -11,7 +11,7 @@ numOfSatillites = 10
 
 for i in range(numOfSatillites):
     satillite = Actor('satillite')
-    satillite.pos = (random.randint(50, 950), random.randint(50, 550))
+    satillite.pos = (random.randint(50, 750), random.randint(50, 534))
     satillites.append(satillite)
 
 def draw():
